@@ -1,0 +1,47 @@
+
+.wrap{
+    height: 900px;
+    width: 100%;
+    border: solid 2px;
+
+
+}
+.container{
+    width:100%;
+    height:200px;
+    background: aqua;
+    border-radius: 20px;
+
+}
+.father{
+    width:100%;
+    height:700px;
+    display: flex;
+}
+
+
+
+.box_b{
+    width: 75%;
+    height: 700px;
+    background: #6767da;
+    border-radius: 20px;
+}
+.box_c{
+    width:25%;
+    height:700px;
+    background: #d6dc78;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px){
+.father{
+    flex-direction: column;
+}
+    .box_b{
+        width:100%;
+    }
+    .box_c{
+        width:100%;
+    }
+}
